@@ -1,0 +1,22 @@
+
+fun main() {
+    val count: Int = 2
+    println(count)
+    
+    val number: Int = 10
+    println(number)
+}
+
+//output
+//2
+//10
+
+fun main() {
+    val count: Int = 10
+    println("You have $count unread messages.")
+}
+
+//output
+// You have 10 unread messages.
+
+////////////////////////
