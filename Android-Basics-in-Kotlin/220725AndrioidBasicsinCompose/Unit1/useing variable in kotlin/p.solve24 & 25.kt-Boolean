@@ -1,0 +1,32 @@
+fun main() {
+    val notificationsEnabled: Boolean = true
+    println(notificationsEnabled)
+}
+
+//output
+
+// true
+
+///////////////
+
+fun main() {
+    val notificationsEnabled: Boolean = false
+    println(notificationsEnabled)
+}
+
+//output
+
+// false
+
+///////////////
+
+fun main() {
+    val notificationsEnabled: Boolean = false
+    println("Are notifications enabled? " + notificationsEnabled)
+}
+
+//output
+
+// Are notifications enabled? false
+
+////////////
