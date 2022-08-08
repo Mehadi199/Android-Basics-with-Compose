@@ -7,3 +7,17 @@ fun main() {
     println("2")
     println("3")
 }
+
+  //output
+//
+//1
+//2
+//3
+  //
+  
+ fun main() {
+    println("Hello, world!")
+}
+ 
+ //output
+ //Hello, world!
