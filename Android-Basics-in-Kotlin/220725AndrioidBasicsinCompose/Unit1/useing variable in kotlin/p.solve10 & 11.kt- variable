@@ -1,0 +1,27 @@
+fun main() {
+    val unreadCount = 58
+    val readCount = 100
+    println("You have ${unreadCount + readCount} total messages in your inbox.")
+}
+
+
+//output
+//You have 158 total messages in your inbox.
+
+///////////
+
+fun main() {
+    val numberOfPhotos = 100
+    val photosDeleted = 38
+    println("$numberOfPhotos total photos")
+    println("$photosDeleted photos deleted")
+    println("${numberOfPhotos - photosDeleted} photos left")
+}
+
+
+// output
+// 100 total photos
+// 38 photos deleted
+// 62 photos left
+
+//////////////
