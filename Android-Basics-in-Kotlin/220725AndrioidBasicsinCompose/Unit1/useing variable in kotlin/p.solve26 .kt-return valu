@@ -1,0 +1,53 @@
+fun birthdayGreeting(): String{ 
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    val greeting = birthdayGreeting()
+    println(greeting)
+}
+
+//output
+
+// Happy Birthday, Rover!
+// You are now 5 years old!
+
+///////////////////////////
+
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, Rex!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    println(birthdayGreeting("Rover"))
+}
+
+//output
+
+// Happy Birthday, Rover!
+// You are now 5 years old!
+
+//////////////////
+
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+fun main() {
+    println(birthdayGreeting("Rover"))
+    println(birthdayGreeting("Rex"))
+}
+
+
+//output
+
+// Happy Birthday, Rover!
+// You are now 5 years old!
+// Happy Birthday, Rover!
+// You are now 5 years old!
+
+///////////
+
