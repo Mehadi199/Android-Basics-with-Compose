@@ -1,0 +1,24 @@
+
+fun main() {
+    val nextMeeting = "Next meeting is:"
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
+}
+
+// output
+// Next meeting is:January 1
+
+////////////////////
+
+fun main() {
+    val nextMeeting = "Next meeting is: "
+    val date = "January 1"
+    val reminder = nextMeeting + date + " at work."
+    println(reminder)
+}
+
+// output
+// Next meeting is:January 1 at work.
+
+/////////////////////
